@@ -255,12 +255,12 @@ with tab2:
     st.markdown("""
     ### 📝 使用說明
     
-    本工具使用先進的 InSPyReNet 技術，專門針對以下類型的圖像進行優化：
+    本工具使用先進的 rembg 技術，專門針對以下類型的圖像進行優化：
     
     <div style="display: flex; gap: 1rem; margin: 1rem 0;">
         <div><span class="badge">👤</span> 人像照片</div>
         <div><span class="badge">🛍️</span> 產品圖像</div>
-        <div><span class="badge">✂️</span> 複雜邊緣</div>
+        # <div><span class="badge">✂️</span> 複雜邊緣</div>
     </div>
     
     **使用步驟：**
@@ -297,6 +297,6 @@ with tab2:
 # 頁腳
 st.markdown("""
 <div class="footer">
-    <p>由 InSPyReNet 技術驅動 | © 2025 AI圖片背景移除工具</p>
+    <p>由 rembg 技術驅動 | © 2025 AI圖片背景移除工具 V1.0 | 設計人: 葉春華 </p>
 </div>
 """, unsafe_allow_html=True)
