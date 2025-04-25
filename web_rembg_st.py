@@ -171,7 +171,7 @@ st.markdown("<h1>✨ AI 智能圖片背景移除工具</h1>", unsafe_allow_html=
 # 介紹文字
 st.markdown("""
 <div style="text-align: center; max-width: 700px; margin: 0 auto 2rem auto;">
-    <p>使用先進的 <span class="highlight">InSPyReNet</span> 技術，輕鬆處理複雜圖像，完美保留人像細節、毛髮和產品輪廓。</p>
+    <p>使用先進的 <span class="highlight">rembg</span> 技術，輕鬆處理複雜圖像，完美保留人像和產品輪廓。</p>
 </div>
 """, unsafe_allow_html=True)
 
